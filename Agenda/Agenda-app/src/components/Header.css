@@ -1,0 +1,22 @@
+header{
+    margin: 2% 0% 0% 0%;
+    padding-left: 4%;
+    display: flex;
+    justify-content: flex-start; /* esquerda */
+    align-items: flex-end;       /* embaixo */
+}
+
+header button{
+    height: 5rem;
+    width: 15rem;
+    border: 0px;
+    border-radius: 25px;
+    background-color: #825b4d;
+    margin: 0% 0.5%; 
+}   
+.ativo{
+    background-color: #d6bc9c;
+    height: 5.5rem;
+    width: 16rem;
+
+}
