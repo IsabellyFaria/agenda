@@ -28,6 +28,9 @@
     background-color: #d0ffb5;
     padding: 1rem;
     border-radius: 20px;
+    box-shadow:
+        0 10px 18px rgba(0,0,0,.15),
+        inset 0 2px rgba(255,255,255,.25);
 }
 .entrega-lista{
     background-color: #dfefe2;
@@ -67,6 +70,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(
+        180deg,
+        #63aa39 0%,
+        #40821b 100%
+    );
+    box-shadow:
+        0 10px 18px rgba(0,0,0,.15),
+        inset 0 2px rgba(255,255,255,.25);
 }
 
 .calendario-lista{
