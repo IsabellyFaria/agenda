@@ -8,15 +8,19 @@ header{
 
 header button{
     height: 5rem;
-    width: 15rem;
+    width: 18rem;
     border: 0px;
-    border-radius: 25px;
+    border-radius: 25px 25px 0px 0px;
     background-color: #825b4d;
     margin: 0% 0.5%; 
+    padding-top: 1%;
+    box-shadow:
+        0 -2px 0 rgba(255,255,255,.15),
+        0 5px 12px rgba(0,0,0,.15);
 }   
 .ativo{
     background-color: #d6bc9c;
     height: 5.5rem;
-    width: 16rem;
-
+    width: 19rem;
+    box-shadow: none;
 }
