@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Prod from "./components/Prod";
 import { useState } from "react";
 
 import './App.css'
@@ -17,7 +18,7 @@ function App() {
       <main>
         {paginaAtual === "home" && <Home />}
 
-        {paginaAtual === "prod" && <h1>Página Produtividade</h1>}
+        {paginaAtual === "prod" && <Prod/>}
 
         {paginaAtual === "horas" && <h1>Página Horas</h1>}
       </main>
